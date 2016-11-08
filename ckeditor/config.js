@@ -8,6 +8,7 @@ CKEDITOR.editorConfig = function( config ) {
 	// config.language = 'fr';
 	// config.uiColor = '#AADC6E';
 	config.extraPlugins = 'embed';
+	config.extraPlugins = 'autoembed';
 	// config.extraPlugins = 'embedbase';
 	// config.extraPlugins = 'widget';
 	// config.extraPlugins = 'notificationaggregator';
