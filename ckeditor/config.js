@@ -8,9 +8,9 @@ CKEDITOR.editorConfig = function( config ) {
 	// config.language = 'fr';
 	// config.uiColor = '#AADC6E';
 	config.extraPlugins = 'embed';
-	// config.extraPlugins = 'embedbase';
-	// config.extraPlugins = 'widget';
-	// config.extraPlugins = 'notificationaggregator';
-	// config.extraPlugins = 'notification';
-	// config.extraPlugins = 'lineutils';
+	config.extraPlugins = 'embedbase';
+	config.extraPlugins = 'widget';
+	config.extraPlugins = 'notificationaggregator';
+	config.extraPlugins = 'notification';
+	config.extraPlugins = 'lineutils';
 };
