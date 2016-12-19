@@ -6,6 +6,7 @@ html {
     line-height: 1.4;
 }
 
+
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -370,4 +371,84 @@ nav a:hover {
     h3 {
         page-break-after: avoid;
     }
+}
+
+/*Simple reset*/
+* {margin: 0; padding: 0;}
+
+body {
+	/*You can use any kind of background here.*/
+      background: grey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black,#444); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, #444); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black,#444); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black,#444); /* Standard syntax */
+}
+canvas {
+	display: block;
+}
+
+@font-face {
+    font-family: 'christmabetregular';
+    src: url('christmabet-webfont.woff2') format('woff2'),
+         url('christmabet-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'candy_cane_unregisteredRg';
+    src: url('candcu__-webfont.woff2') format('woff2'),
+         url('candcu__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'merry_xmas_stregular';
+    src: url('merry_xmas_st-webfont.woff2') format('woff2'),
+         url('merry_xmas_st-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+p, h1, g2,h3,h4,h5,h6 {
+    text-align: center;
+    color: red;
+}
+
+#merry{
+    font-family: 'candy_cane_unregisteredRg';
+    font-size: 5em;
+}
+
+#ho{
+    padding-top: 10vh;
+    font-family: 'candy_cane_unregisteredRg';
+    font-size: 3em;
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+}
+
+.parent > div {
+    flex: 1;
+}
+
+.photo{
+    margin-left: 15%;
+}
+
+#house{
+    margin-top: 5vh;
+    display: block;
+    margin: auto;
+    left: auto;
+    right: auto;
 }

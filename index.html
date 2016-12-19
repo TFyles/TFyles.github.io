@@ -11,17 +11,33 @@
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
 
+    <script src="js/vendor/snow.js"></script>
+
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 
 <body>
 
-    <div id="particles-js"></div>
+    <canvas id="canvas">
+    </canvas>
+    <h1 id="merry">Merry fucking christmas </h1>
+    <p id="ho">Ho! Ho! Ho! </p>
 
-    <script src="node_modules/particles.js/particles.js"></script>
+    <div class="parent">  
+  <div class="left photo pull-left"><img src="img/deer.jpg"></div>
+  <div class="right photo pull-right"><img src="img/chris.jpg"></div>
+</div>
 
+<img id="house" src="img/house.jpg">
 
+    
+    <script src="js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="http://velocityjs.org/build/jquery.velocity.min.js"></script>
+    <script src="http://velocityjs.org/build/velocity.ui.js"></script>
+    
+    
     <script src="js/main.js"></script>
+    
 </body>
 
 </html>
