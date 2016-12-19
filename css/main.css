@@ -377,6 +377,7 @@ nav a:hover {
 * {margin: 0; padding: 0;}
 
 body {
+    height: 100vh;
 	/*You can use any kind of background here.*/
       background: grey; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(black,#444); /* For Safari 5.1 to 6.0 */
@@ -384,9 +385,7 @@ body {
     background: -moz-linear-gradient(black,#444); /* For Firefox 3.6 to 15 */
     background: linear-gradient(black,#444); /* Standard syntax */
 }
-canvas {
-	display: block;
-}
+
 
 @font-face {
     font-family: 'christmabetregular';
@@ -421,32 +420,19 @@ p, h1, g2,h3,h4,h5,h6 {
     color: red;
 }
 
-#merry{
+.merry{
     font-family: 'candy_cane_unregisteredRg';
     font-size: 5em;
+    color: red;
 }
 
-#ho{
-    padding-top: 10vh;
+.ho{
     font-family: 'candy_cane_unregisteredRg';
     font-size: 3em;
-}
-
-.parent {
-    display: flex;
-    align-items: center;
-}
-
-.parent > div {
-    flex: 1;
+    color: green;
 }
 
 .photo{
-    margin-left: 15%;
-}
-
-#house{
-    margin-top: 5vh;
     display: block;
     margin: auto;
     left: auto;
