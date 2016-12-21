@@ -377,13 +377,7 @@ nav a:hover {
 * {margin: 0; padding: 0;}
 
 body {
-    height: 100vh;
-	/*You can use any kind of background here.*/
-      background: grey; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(black,#444); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(black, #444); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(black,#444); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(black,#444); /* Standard syntax */
+
 }
 
 
@@ -413,28 +407,4 @@ body {
     font-weight: normal;
     font-style: normal;
 
-}
-
-p, h1, g2,h3,h4,h5,h6 {
-    text-align: center;
-    color: red;
-}
-
-.merry{
-    font-family: 'candy_cane_unregisteredRg';
-    font-size: 5em;
-    color: red;
-}
-
-.ho{
-    font-family: 'candy_cane_unregisteredRg';
-    font-size: 3em;
-    color: green;
-}
-
-.photo, .photo2{
-    display: block;
-    margin: auto;
-    left: auto;
-    right: auto;
 }
