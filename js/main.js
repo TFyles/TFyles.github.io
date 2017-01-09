@@ -18,7 +18,7 @@ var _mouse;
 function init(){
     _img = new Image();
     _img.addEventListener('load',onImage,false);
-    _img.src = "img/us.jpg";
+    _img.src = "img/DanDay.jpg";
 }
 
 function onImage(e){
